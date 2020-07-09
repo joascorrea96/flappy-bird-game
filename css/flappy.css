@@ -14,7 +14,6 @@
     width: 1200px;
     margin: 15px;
     background-color: deepskyblue;
-    /* tudo que estiver fora do elemento será escondido */
     overflow: hidden;
 }
 
@@ -24,38 +23,28 @@
     left: calc(50% - 30px);
 }
 
-/* os dois elementos que representam o cano */
 .par-de-barreiras {
     position: absolute;
-    /* topo alinhado com o elemento */
     top: 0;
-    /* altura inteira do elemento */
     height: 100%;
     display: flex;
-    /* organiza o elemento de forma vertical(coluna) */
     flex-direction: column;
-    /* determina um espaço entre os elementos */
     justify-content: space-between;
 }
 
-/* cano */
 .barreira {
-    /* organiza os elementos lado a lado */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* entrada do cano e sua borda */
 .barreira .borda {
     height: 30px;
     width: 130px;
-    /* define a como cor mista */
     background: linear-gradient(90deg, #639301, #A5E82E);
     border: 2px solid #000;
 }
 
-/* cano e seu corpo*/
 .barreira .corpo {
     height: 150px;
     width: 110px;
@@ -64,7 +53,6 @@
     border-right: 2px solid #000;
 }
 
-/* progresso do jogo */
 .progresso {
     position: absolute;
     top: 10px;
